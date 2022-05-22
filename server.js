@@ -4,7 +4,9 @@ const request = require('postman-request');
 require('dotenv').config();
 
 const app = express();
-app.use(cors({ credentials: true }));
+
+app.use(express.static("public"))
+  .use(cors({ credentials: true }));
 
 const port = process.env.PORT || 3001;
 const IP_KEY = process.env.IP_KEY;
