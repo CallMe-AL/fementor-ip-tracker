@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <meta type="description" description="Frontend Mentor project that displays IP locations, uses JavaScript, Express, and the IPify, Leaflet, and Mapbox APIs.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <meta type="description"
+    description="Frontend Mentor project that displays IP locations, uses JavaScript, Express, and the IPify, Leaflet, and Mapbox APIs.">
 
   <!-- og tags -->
-  <meta property="og:url"
-    content="https://fementor-ip-tracker.herokuapp.com/" />
+  <meta property="og:url" content="https://fementor-ip-tracker.herokuapp.com/" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Frontend Mentor IP Adress Tracker" />
-  <meta property="og:description" content="Frontend Mentor project that displays IP locations, uses JavaScript, Express, and the IPify, Leaflet, and Mapbox APIs." />
-  <meta property="og:image"
-    content="./screenshots/desktop-preview.png" />
+  <meta property="og:title" content="Frontend Mentor IP Address Tracker" />
+  <meta property="og:description"
+    content="Frontend Mentor project that displays IP locations, uses JavaScript, Express, and the IPify, Leaflet, and Mapbox APIs." />
+  <meta property="og:image" content="./screenshots/desktop-preview.png" />
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./styles.css">
@@ -20,12 +22,13 @@
   <!-- leaflet stuff -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
     integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
-    crossorigin="" />  
-  
+    crossorigin="" />
+
   <title>Frontend Mentor | IP Address Tracker</title>
 
-  
+
 </head>
+
 <body>
   <div class="background-image"></div>
   <div id="map"></div>
@@ -37,21 +40,14 @@
           <label for="search-ip">
             <span class="sr-only">Search for an ip address</span>
           </label>
-          <input 
-            class="search-input"
-            type="search" 
-            id="search-ip" 
-            name="search-ip"
-            value=""
-            autocomplete="off"
-            placeholder="Search for any IP address or domain"
-          >
+          <input class="search-input" type="search" id="search-ip" name="search-ip" value="" autocomplete="off"
+            placeholder="Search for any IP address or domain">
           <button class="search-btn flex" aria-label="Search for the IP">
             <img class="arrow-icon" src="./images/icon-arrow.svg" alt="arrow icon" aria-hidden="true">
           </button>
         </form>
       </header>
-  
+
       <section class="ip-results flex">
         <article class="ip-address">
           <h2>IP Address</h2>
@@ -71,8 +67,8 @@
         </article>
       </section>
     </div>
-  </main>  
-  
+  </main>
+
   <!-- <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
@@ -82,4 +78,5 @@
     crossorigin=""></script>
   <script src="./app.js"></script>
 </body>
+
 </html>
