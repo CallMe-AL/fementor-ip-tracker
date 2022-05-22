@@ -8,7 +8,7 @@ let MAP_KEY = '';
 // let url = 'http://localhost:3001'; 
 
 // development
-let url = 'https://fementor-ip-tracker.herokuapp.com/';
+let url = 'https://fementor-ip-tracker.herokuapp.com';
 
 // **************
 // input code
